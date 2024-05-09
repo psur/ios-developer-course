@@ -7,3 +7,7 @@
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
+APP_BUNDLE_NAME = CourseApp Dev
+APP_BUNDLE_IDENTIFIER = CZU.CourseApp.production
+API_JOKES_BASE_URL = https:/$()/api.chucknorris.io
+API_IMAGES_BASE_URL = https:/$()/
