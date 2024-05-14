@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import os
 
 struct ContentView: View {
     var body: some View {
@@ -13,9 +14,13 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, Peter!")
         }
         .padding()
+        .onAppear(){
+            let logger = Logger()
+            logger.info("The view is appearing")
+        }
     }
 }
 
