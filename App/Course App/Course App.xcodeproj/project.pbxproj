@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5909EFA32BF5607300DD0D8D /* MockDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5909EFA22BF5607300DD0D8D /* MockDataProvider.swift */; };
+		5909EFA62BF6229F00DD0D8D /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5909EFA52BF6229F00DD0D8D /* LabelCollectionViewCell.swift */; };
+		5909EFA92BF62F9900DD0D8D /* UICollectionView+ReusableIdenfifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5909EFA82BF62F9900DD0D8D /* UICollectionView+ReusableIdenfifier.swift */; };
+		5909EFAB2BF6314D00DD0D8D /* ReusableIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5909EFAA2BF6314D00DD0D8D /* ReusableIdentifier.swift */; };
+		5909EFAD2BF6336700DD0D8D /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5909EFAC2BF6336700DD0D8D /* ImageCollectionViewCell.swift */; };
 		593AA4C22BDC6A5B001D6DAA /* Course_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AA4C12BDC6A5B001D6DAA /* Course_AppApp.swift */; };
 		593AA4C42BDC6A5B001D6DAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593AA4C32BDC6A5B001D6DAA /* ContentView.swift */; };
-		593AA4C62BDC6A5D001D6DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593AA4C52BDC6A5D001D6DAA /* Assets.xcassets */; };
+		593AA4C62BDC6A5D001D6DAA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593AA4C52BDC6A5D001D6DAA /* Images.xcassets */; };
 		593AA4C92BDC6A5D001D6DAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 593AA4C82BDC6A5D001D6DAA /* Preview Assets.xcassets */; };
-		596702B82BF0CDFA0043936C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 596702B72BF0CDFA0043936C /* FirebaseAuth */; };
-		596702BA2BF0CE3D0043936C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 596702B92BF0CE3D0043936C /* FirebaseFirestore */; };
+		5984C6062BF3FC96007E946C /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 5984C6052BF3FC96007E946C /* FirebaseAuth */; };
+		5984C6082BF3FCB9007E946C /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5984C6072BF3FCB9007E946C /* FirebaseFirestore */; };
+		5984C60F2BF407BC007E946C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5984C60C2BF407BC007E946C /* Poppins-Bold.ttf */; };
+		5984C6102BF407BC007E946C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5984C60D2BF407BC007E946C /* Poppins-Regular.ttf */; };
+		5984C6112BF407BC007E946C /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5984C60E2BF407BC007E946C /* Poppins-MediumItalic.ttf */; };
+		5984C6162BF529F9007E946C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5984C6152BF529F9007E946C /* Colors.xcassets */; };
+		5984C6192BF53C49007E946C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5984C6172BF53C49007E946C /* HomeViewController.swift */; };
+		5984C61A2BF53C49007E946C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5984C6182BF53C49007E946C /* HomeViewController.xib */; };
 		59C833812BECF98E00989F0E /* Course_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C833802BECF98E00989F0E /* Course_AppUITests.swift */; };
 		59C833832BECF98E00989F0E /* Course_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C833822BECF98E00989F0E /* Course_AppUITestsLaunchTests.swift */; };
 		59D433F52BF0AFD7002F9505 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59D433F42BF0AFD7002F9505 /* GoogleService-Info.plist */; };
@@ -29,11 +40,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5909EFA22BF5607300DD0D8D /* MockDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataProvider.swift; sourceTree = "<group>"; };
+		5909EFA52BF6229F00DD0D8D /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		5909EFA82BF62F9900DD0D8D /* UICollectionView+ReusableIdenfifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+ReusableIdenfifier.swift"; sourceTree = "<group>"; };
+		5909EFAA2BF6314D00DD0D8D /* ReusableIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableIdentifier.swift; sourceTree = "<group>"; };
+		5909EFAC2BF6336700DD0D8D /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		593AA4BE2BDC6A5B001D6DAA /* Course App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Course App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		593AA4C12BDC6A5B001D6DAA /* Course_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course_AppApp.swift; sourceTree = "<group>"; };
 		593AA4C32BDC6A5B001D6DAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		593AA4C52BDC6A5D001D6DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		593AA4C52BDC6A5D001D6DAA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		593AA4C82BDC6A5D001D6DAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5984C60C2BF407BC007E946C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Poppins-Bold.ttf"; path = "../../../../../../Desktop/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		5984C60D2BF407BC007E946C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Poppins-Regular.ttf"; path = "../../../../../../Desktop/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		5984C60E2BF407BC007E946C /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Poppins-MediumItalic.ttf"; path = "../../../../../../Desktop/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		5984C6152BF529F9007E946C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		5984C6172BF53C49007E946C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5984C6182BF53C49007E946C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		59C8337E2BECF98E00989F0E /* Course AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Course AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C833802BECF98E00989F0E /* Course_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course_AppUITests.swift; sourceTree = "<group>"; };
 		59C833822BECF98E00989F0E /* Course_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -47,8 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				596702B82BF0CDFA0043936C /* FirebaseAuth in Frameworks */,
-				596702BA2BF0CE3D0043936C /* FirebaseFirestore in Frameworks */,
+				5984C6062BF3FC96007E946C /* FirebaseAuth in Frameworks */,
+				5984C6082BF3FCB9007E946C /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,15 +84,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5909EFA12BF5605700DD0D8D /* DataAPI */ = {
+			isa = PBXGroup;
+			children = (
+				5909EFA22BF5607300DD0D8D /* MockDataProvider.swift */,
+			);
+			path = DataAPI;
+			sourceTree = "<group>";
+		};
+		5909EFA42BF6226E00DD0D8D /* UICollectionVIewCells */ = {
+			isa = PBXGroup;
+			children = (
+				5909EFA52BF6229F00DD0D8D /* LabelCollectionViewCell.swift */,
+				5909EFAC2BF6336700DD0D8D /* ImageCollectionViewCell.swift */,
+			);
+			path = UICollectionVIewCells;
+			sourceTree = "<group>";
+		};
+		5909EFA72BF62F5200DD0D8D /* common */ = {
+			isa = PBXGroup;
+			children = (
+				5909EFA82BF62F9900DD0D8D /* UICollectionView+ReusableIdenfifier.swift */,
+				5909EFAA2BF6314D00DD0D8D /* ReusableIdentifier.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
 		593AA4B52BDC6A5B001D6DAA = {
 			isa = PBXGroup;
 			children = (
+				5909EFA72BF62F5200DD0D8D /* common */,
+				5909EFA12BF5605700DD0D8D /* DataAPI */,
+				593AA4C72BDC6A5D001D6DAA /* Preview Content */,
 				59D433F42BF0AFD7002F9505 /* GoogleService-Info.plist */,
 				59C833892BECFABB00989F0E /* Configurations */,
 				593AA4C02BDC6A5B001D6DAA /* Course App */,
 				59C8337F2BECF98E00989F0E /* Course AppUITests */,
-				593AA4BF2BDC6A5B001D6DAA /* Products */,
 				596702B62BF0CDFA0043936C /* Frameworks */,
+				593AA4BF2BDC6A5B001D6DAA /* Products */,
+				5984C60A2BF4073E007E946C /* Resources */,
+				5984C6122BF407F7007E946C /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,9 +140,6 @@
 			isa = PBXGroup;
 			children = (
 				593AA4C12BDC6A5B001D6DAA /* Course_AppApp.swift */,
-				593AA4C32BDC6A5B001D6DAA /* ContentView.swift */,
-				593AA4C52BDC6A5D001D6DAA /* Assets.xcassets */,
-				593AA4C72BDC6A5D001D6DAA /* Preview Content */,
 			);
 			path = "Course App";
 			sourceTree = "<group>";
@@ -107,6 +157,53 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5984C60A2BF4073E007E946C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				593AA4C52BDC6A5D001D6DAA /* Images.xcassets */,
+				5984C60B2BF40749007E946C /* Fonts */,
+				5984C6152BF529F9007E946C /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5984C60B2BF40749007E946C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5984C60C2BF407BC007E946C /* Poppins-Bold.ttf */,
+				5984C60E2BF407BC007E946C /* Poppins-MediumItalic.ttf */,
+				5984C60D2BF407BC007E946C /* Poppins-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5984C6122BF407F7007E946C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5984C6142BF40843007E946C /* UIKit */,
+				5984C6132BF4083B007E946C /* SwiftUI */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5984C6132BF4083B007E946C /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				593AA4C32BDC6A5B001D6DAA /* ContentView.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		5984C6142BF40843007E946C /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5909EFA42BF6226E00DD0D8D /* UICollectionVIewCells */,
+				5984C6172BF53C49007E946C /* HomeViewController.swift */,
+				5984C6182BF53C49007E946C /* HomeViewController.xib */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		59C8337F2BECF98E00989F0E /* Course AppUITests */ = {
@@ -144,8 +241,8 @@
 			);
 			name = "Course App";
 			packageProductDependencies = (
-				596702B72BF0CDFA0043936C /* FirebaseAuth */,
-				596702B92BF0CE3D0043936C /* FirebaseFirestore */,
+				5984C6052BF3FC96007E946C /* FirebaseAuth */,
+				5984C6072BF3FCB9007E946C /* FirebaseFirestore */,
 			);
 			productName = "Course App";
 			productReference = 593AA4BE2BDC6A5B001D6DAA /* Course App.app */;
@@ -217,8 +314,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				593AA4C92BDC6A5D001D6DAA /* Preview Assets.xcassets in Resources */,
-				593AA4C62BDC6A5D001D6DAA /* Assets.xcassets in Resources */,
+				5984C6112BF407BC007E946C /* Poppins-MediumItalic.ttf in Resources */,
+				593AA4C62BDC6A5D001D6DAA /* Images.xcassets in Resources */,
 				59D433F52BF0AFD7002F9505 /* GoogleService-Info.plist in Resources */,
+				5984C60F2BF407BC007E946C /* Poppins-Bold.ttf in Resources */,
+				5984C6102BF407BC007E946C /* Poppins-Regular.ttf in Resources */,
+				5984C6162BF529F9007E946C /* Colors.xcassets in Resources */,
+				5984C61A2BF53C49007E946C /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,8 +338,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5909EFAB2BF6314D00DD0D8D /* ReusableIdentifier.swift in Sources */,
+				5909EFA32BF5607300DD0D8D /* MockDataProvider.swift in Sources */,
+				5909EFAD2BF6336700DD0D8D /* ImageCollectionViewCell.swift in Sources */,
+				5909EFA62BF6229F00DD0D8D /* LabelCollectionViewCell.swift in Sources */,
 				593AA4C42BDC6A5B001D6DAA /* ContentView.swift in Sources */,
 				593AA4C22BDC6A5B001D6DAA /* Course_AppApp.swift in Sources */,
+				5909EFA92BF62F9900DD0D8D /* UICollectionView+ReusableIdenfifier.swift in Sources */,
+				5984C6192BF53C49007E946C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +497,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Course App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = H62TL746QH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -422,7 +530,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Course App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = H62TL746QH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -553,7 +661,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Course App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = H62TL746QH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -660,7 +768,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Course App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = H62TL746QH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -761,12 +869,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		596702B72BF0CDFA0043936C /* FirebaseAuth */ = {
+		5984C6052BF3FC96007E946C /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 59D433F62BF0C615002F9505 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
-		596702B92BF0CE3D0043936C /* FirebaseFirestore */ = {
+		5984C6072BF3FCB9007E946C /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 59D433F62BF0C615002F9505 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
