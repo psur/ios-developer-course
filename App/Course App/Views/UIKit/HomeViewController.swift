@@ -63,7 +63,7 @@ private extension HomeViewController {
         guard dataSource.snapshot().numberOfSections == 0 else {
             //
             var snapshot = dataSource.snapshot()
-            snapshot.moveItem((data.first?.jokes.first)!, afterItem: (data.first?.jokes.last)!)
+            //snapshot.moveItem((data.first?.jokes.first)!, afterItem: (data.first?.jokes.last)!)
 
             dataSource.apply(snapshot, animatingDifferences: animatingDifferences)
             return
@@ -84,10 +84,13 @@ private extension HomeViewController {
             
             let section = self.dataSource.snapshot().sectionIdentifiers[indexPath.section]
 
-            let imageCell: ImageCollectionViewCell = collectionView.dequeueReusableCell(for: indexPath)
-            imageCell.imageView.image = section.jokes[indexPath.item].image
-            return imageCell
+            //let imageCell: ImageCollectionViewCell = collectionView.dequeueReusableCell(for: indexPath)
+            let horizontalCell:HorizontalScrollingCollectionViewCell =
+            collectionView.dequeueReusableCell(for:indexPath)
+            horizontalCell.setData(section.jokes)
+            return horizontalCell
         }
+        
 
         dataSource.supplementaryViewProvider = { collectionView, kind, indexPath in
             guard kind == UICollectionView.elementKindSectionHeader else {
@@ -128,6 +131,7 @@ extension HomeViewController: UICollectionViewDelegate {
 
 // MARK: - UI setup
 private extension HomeViewController {
+    
     func setup() {
         setupCollectionView()
         readData()
@@ -143,6 +147,8 @@ private extension HomeViewController {
            categoriesCollectionView.register(ImageCollectionViewCell.self)
            categoriesCollectionView.register(LabelCollectionViewCell.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader)
 
+           categoriesCollectionView.register(HorizontalScrollingCollectionViewCell.self)
+       
            let layout = UICollectionViewFlowLayout()
            layout.scrollDirection = .vertical //Change this to vertical
            layout.minimumLineSpacing = 8 //Spacing here is not necessary, but adds a better inset for horizontal scrolling. Gives you a tiny peek of the background. Probably not great for vertical
