@@ -40,16 +40,16 @@ final class MockDataProvider: ObservableObject {
 
     init() {
         data = localData
-        updateData()
+        // updateData()
     }
 }
 
 // MARK: - Private methods
 private extension MockDataProvider {
     func updateData() {
+        // TODO: temporary solution
         DispatchQueue.main.asyncAfter(deadline: .now() + 4, execute: {
             if var section = self.localData.first {
-                //section.jokes.remove(at: Int.random(in: 0..<section.jokes.count))
                 section.jokes.remove(at: 1)
                 self.data = [section]
             }
